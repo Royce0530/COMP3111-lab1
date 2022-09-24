@@ -8,6 +8,8 @@ public class Library {
 		Library lib = new Library();
 		if (lib.someLibraryMethod())
 			System.out.println("Hello World!");
+		else
+			System.out.println("Goodbye World!");
 	}
 	
     public boolean someLibraryMethod() {
