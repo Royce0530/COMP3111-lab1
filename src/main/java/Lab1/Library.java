@@ -5,7 +5,9 @@ package Lab1;
 
 public class Library {
 	static public void main(String[] args) {
-		System.out.println("Hello World!");
+		Library lib = new Library();
+		if (lib.someLibraryMethod())
+			System.out.println("Hello World!");
 	}
 	
     public boolean someLibraryMethod() {
